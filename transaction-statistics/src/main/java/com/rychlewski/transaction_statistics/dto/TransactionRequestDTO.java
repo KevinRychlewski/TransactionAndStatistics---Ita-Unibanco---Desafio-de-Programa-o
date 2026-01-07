@@ -24,7 +24,7 @@ public class TransactionRequestDTO {
         this.amount = amount;
     }
 
-    public Instant getTimeStamp() {
+    public Instant getTimestamp() {
         return timestamp;
     }
 
