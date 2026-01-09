@@ -23,7 +23,7 @@ public class StatisticsService {
         List<TransactionRequestDTO> transactions = transactionRepository.findAll();
         Instant limit = Instant.now().minusSeconds(60);
         List<TransactionRequestDTO> recentTransactions = transactions.stream()
-                .filter(t -> t.getTimestamp().isBefore(limit))
+                .filter(t -> !t.getTimestamp().isBefore(limit))
                 .toList();
         if (recentTransactions.isEmpty()) {
             return new StatisticsResponseDTO();
