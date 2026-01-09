@@ -1,6 +1,6 @@
 # 📊 Transaction Statistics API
 
-API REST desenvolvida em **Java 17 + Spring Boot** para registrar transações financeiras e calcular **estatísticas em tempo real** considerando apenas as transações ocorridas nos **últimos 60 segundos**.
+API REST desenvolvida em **Java 21 + Spring Boot** para registrar transações financeiras e calcular **estatísticas em tempo real** considerando apenas as transações ocorridas nos **últimos 60 segundos**.
 
 O projeto segue o padrão de **desafios técnicos utilizados por instituições financeiras (ex.: Itaú)**, com foco em **regras de negócio claras, arquitetura limpa, concorrência, versionamento com Git e testes unitários**.
 
